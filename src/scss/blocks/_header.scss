@@ -1,0 +1,48 @@
+.header {
+}
+.header-body {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0px;
+	align-items: center;
+		&__column {
+		}
+		&__img{
+			width: 172px;
+			img{
+				width: 100%;
+			}
+		}
+}
+.header-body-nav {
+}
+.nav-header {
+
+		&__list {
+			display: flex;
+			li{
+				margin: 0px 0px 0px 27px;
+			}
+		}
+
+		&__link {
+			display: block;
+			color: #646667;
+			font-size: 12px;
+			font-weight: 700;
+			letter-spacing: 1px;
+			line-height: 28px;
+			text-transform: uppercase;
+			text-decoration: none;
+			transition: 0.5s all;
+			&:hover{
+				color:#000;
+				text-shadow: 2px 2px 10px #000;
+			}
+		}
+
+		&__link--earth {
+			padding: 0px 35px 0px 0px;
+			background: url('../img/earth.svg')right no-repeat;
+		}
+}
