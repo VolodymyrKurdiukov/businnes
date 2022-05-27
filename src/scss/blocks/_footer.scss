@@ -1,0 +1,31 @@
+.footer {
+	&__block {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 125px;
+	}
+
+	&__bisness {
+		color: #646667;
+		font-size: 12px;
+		font-weight: 700;
+		letter-spacing: 1px;
+		line-height: 40px;
+		text-transform: uppercase;
+	}
+
+	&__subblock {
+		display: flex;
+		color: #646667;
+		font-size: 12px;
+		font-weight: 700;
+		letter-spacing: 1px;
+		line-height: 40px;
+		text-transform: uppercase;
+	}
+
+	&__terms {
+		margin: 0px 35px 0px 0px;
+	}
+}

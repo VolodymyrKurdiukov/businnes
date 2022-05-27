@@ -11,6 +11,20 @@
 		background-image: linear-gradient(198deg, #007397 0%, rgba(0, 115, 151, 0) 100%);
 		transform: rotate(18deg);
 	}
+	&--card{
+		overflow: hidden;
+		position: relative;
+		&::after {
+			content: "";
+			position: absolute;
+			width: 108%;
+			height: 130%;
+			left: -70px;
+			top: -95px;
+			background-image: linear-gradient(198deg, #007397 0%, rgba(0, 115, 151, 0) 100%);
+			transform: rotate(14deg);
+		}
+	}
 }
 
 .title {
