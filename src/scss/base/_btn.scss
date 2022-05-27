@@ -1,28 +1,20 @@
-.btn{
+.btn {
+	overflow: hidden;
 	display: inline-block;
-	padding: 0px 33px;
-	height: 50px;
+	padding: 0px 30px;
+	height: 56px;
+	line-height: 56px;
+	background-color: #007397;
 	color: #fff;
-	background-color: #000;
-	font-family: 'Bebas Neue', cursive;
-	font-size: 15px;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-align: center;
 	text-transform: uppercase;
-	letter-spacing: 1.5px;
-	line-height: 50px;
-	&--w{
-		background-color: #fff;
-		color:#000;
-	}
-}
-.link{
-	display: inline-block;
-	color: #000;
-	font-family: 'Bebas Neue', cursive;
-	font-size: 15px;
-	text-decoration: underline;
-	text-transform: uppercase;
-	letter-spacing: 1.5px;
-	&--w{
-		color: #fffffe;
+	transition: 0.5s all;
+	&:hover {
+		background-color: #034458;
+		box-shadow: 3px 3px 10px #000;
+		border-radius: 5px;
 	}
 }

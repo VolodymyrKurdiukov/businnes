@@ -1,65 +1,77 @@
-@media (max-width:1199.98px){
-	.main{
-		&-block{
-			&__title{
+@media (max-width: 1199.98px) {
+	.main {
+		&-block {
+			&__title {
 				font-size: 25px;
 				max-width: 650px;
 			}
 		}
 	}
 }
-@media (max-width:991.98px){
-	.header{
-		&-body{
-			&__img{
+@media (max-width: 991.98px) {
+	.header {
+		&-body {
+			&__img {
 				width: 130px;
 			}
 		}
 	}
-	.nav-header{
-		&__list{
-			li{
+	.nav-header {
+		&__list {
+			li {
 				margin: 0px 0px 0px 10px;
 			}
 		}
 	}
-	.main{
-		&-block{
+	.main {
+		&-block {
+			margin: 0px 0px 20px 0px;
 			height: 350px;
-			&__title{
+			&__title {
 				font-size: 20px;
 				max-width: 550px;
 				line-height: 35px;
 			}
 		}
+		&-activity {
+			&__text {
+				width: 100%;
+				font-size: 18px;
+				line-height: 25px;
+			}
+
+			&__btn {
+				margin: 20px 0 0 0;
+			}
+		}
 	}
 }
-@media (max-width:790.98px){
-	.nav-header{
-		&__list{
-			li{
+@media (max-width: 790.98px) {
+	.nav-header {
+		&__list {
+			li {
 				margin: 0px 0px 0px 8px;
 			}
 		}
-		&__link{
+		&__link {
 			font-size: 11px;
 		}
 	}
 }
-@media (max-width:767.98px){
-	.header{
+@media (max-width: 767.98px) {
+	.header {
 		position: fixed;
 		width: 100%;
 		height: 70px;
 		top: 0;
 		left: 0;
 		background-color: #fff;
-		&-body{
+		&-body {
 			height: 70px;
 		}
 	}
-	.nav-header{
-		&__icon{
+	.nav-header {
+		&__icon {
 			display: block;
 		}
 		&__menu {
@@ -75,32 +87,32 @@
 			transition: 0.5s all;
 			opacity: 0;
 			visibility: hidden;
-			&.active{
+			&.active {
 				left: 0;
-			opacity: 1;
-			visibility: visible;
+				opacity: 1;
+				visibility: visible;
 			}
 		}
-		&__list{
+		&__list {
 			display: block;
 			padding: 15px 0px 0px 0px;
-			li{
+			li {
 				margin: 0px 0px 15px 0px;
 			}
 		}
-		&__link{
+		&__link {
 			font-size: 15px;
-			&--earth{
-			padding: 0px 0px 0px 35px;
-			background: url('../img/earth.svg')left no-repeat;
+			&--earth {
+				padding: 0px 0px 0px 35px;
+				background: url("../img/earth.svg") left no-repeat;
 			}
 		}
 	}
-	.main{
+	.main {
 		padding: 70px 0px 0px 0px;
-		&-block{
+		&-block {
 			height: 300px;
-			&__title{
+			&__title {
 				top: 20%;
 				right: 50%;
 				transform: translate(50%);
@@ -110,20 +122,26 @@
 				line-height: 35px;
 			}
 		}
+		
 	}
 }
-@media (max-width:574.98px){
-	.header{
+@media (max-width: 574.98px) {
+	.btn{
+		line-height: 50px;
 		height: 50px;
-		&-body{
+		font-size: 12px;
+	}
+	.header {
+		height: 50px;
+		&-body {
 			height: 50px;
 		}
 	}
-	.main{
+	.main {
 		padding: 50px 0px 0px 0px;
-		&-block{
+		&-block {
 			height: 300px;
-			&__title{
+			&__title {
 				top: 28%;
 				font-size: 15px;
 				line-height: 25px;
@@ -131,5 +149,3 @@
 		}
 	}
 }
-
-

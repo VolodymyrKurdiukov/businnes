@@ -1,5 +1,22 @@
 .main {
-	&-block{
+	&-activity {
+		text-align: center;
+		&__text {
+			width: 970px;
+			margin: 0px auto;
+			color: #646667;
+			font-size: 20px;
+			font-weight: 300;
+			line-height: 36px;
+			text-align: center;
+		}
+
+		&__btn {
+			margin: 46px 0 0 0;
+		}
+	}
+	&-block {
+		margin: 0px 0px 48px 0px;
 		position: relative;
 		height: 411px;
 		&__img {
@@ -17,7 +34,7 @@
 			max-width: 770px;
 			text-shadow: 0 3px 1px rgba(0, 0, 0, 0.6);
 			color: #ffffff;
-			font-family: 'PT Serif', serif;
+			font-family: "PT Serif", serif;
 			font-size: 32px;
 			font-weight: 700;
 			letter-spacing: 1px;
@@ -26,5 +43,3 @@
 		}
 	}
 }
-
-
