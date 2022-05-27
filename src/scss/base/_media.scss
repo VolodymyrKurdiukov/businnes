@@ -45,6 +45,21 @@
 			}
 		}
 	}
+	.invest {
+		margin: 50px 0px 0px 0px;
+		&__title {
+			margin: 0px 0px 30px 0px;
+		}
+		&-stat {
+			margin: 0px -15px 25px -15px;
+			justify-content: center;
+			flex-wrap: wrap;
+			&__item {
+				padding: 0px 15px;
+				flex: 1 1 33.333%;
+			}
+		}
+	}
 }
 @media (max-width: 790.98px) {
 	.nav-header {
@@ -122,11 +137,16 @@
 				line-height: 35px;
 			}
 		}
-		
+	}
+	.invest{
+		text-align: center;
+		&__text{
+			width: 100%;
+		}
 	}
 }
 @media (max-width: 574.98px) {
-	.btn{
+	.btn {
 		line-height: 50px;
 		height: 50px;
 		font-size: 12px;
@@ -145,6 +165,22 @@
 				top: 28%;
 				font-size: 15px;
 				line-height: 25px;
+			}
+		}
+	}
+	.invest{
+		margin: 20px 0px 0px 0px;
+		&__title{
+			font-size: 25px;
+			margin: 0px 0px 15px 0px;
+		}
+		&__text{
+			font-size: 17px;
+			line-height: 25px;
+		}
+		&-stat{
+			&__item{
+				flex: 1 1 100%;
 			}
 		}
 	}

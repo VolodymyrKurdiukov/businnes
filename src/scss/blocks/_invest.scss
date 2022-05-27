@@ -1,0 +1,43 @@
+.invest {
+	margin: 100px 0px 0px 0px;
+	&__title {
+		margin: 0px 0px 40px 0px;
+	}
+
+	&__text {
+		width: 670px;
+		color: #646667;
+		font-size: 20px;
+		font-weight: 300;
+		line-height: 36px;
+		margin: 0px 0px 48px 0px;
+	}
+
+	&-stat {
+		margin: 0px 0px 25px 0px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		&__item {
+			display: flex;
+			flex-direction: column;
+			margin: 0px 0px 25px 0px;
+		}
+
+		&__price {
+			color: #007397;
+			font-family: "PT Serif", serif;
+			font-size: 54px;
+			line-height: 54px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+		&__text {
+			color: #aec3d4;
+			font-size: 16px;
+			line-height: 32px;
+			text-align: center;
+		}
+	}
+}
