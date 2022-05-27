@@ -1,9 +1,4 @@
 .header {
-	position: fixed;
-	top: 0;
-	left: 0;
-	background-color: #fff;
-	width: 100%;
 	&-menu{
 		z-index: 9;
 		position: fixed;
@@ -26,6 +21,8 @@
 		&__column {
 		}
 		&__img{
+			position: relative;
+			z-index: 50;
 			width: 172px;
 			img{
 				width: 100%;

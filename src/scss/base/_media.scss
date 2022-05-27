@@ -61,6 +61,11 @@
 				visibility: visible;
 				opacity: 1;
 			}
+			&__close{
+				position: absolute;
+				top: 20px;
+				right: 20px;
+			}
 		}
 	}
 	.nav-header{
@@ -70,6 +75,18 @@
 		}
 		&__list{
 			display: block;
+			padding: 70px 0px 0px 35px;
+			li{
+				margin: 0px 0px 15px 0px;
+			}
+		}
+		&__link{
+			font-size: 15px;
+			&--earth{
+				
+			padding: 0px 0px 0px 35px;
+			background: url('../img/earth.svg')left no-repeat;
+			}
 		}
 	}
 }
